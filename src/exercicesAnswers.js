@@ -40,6 +40,11 @@ let removeSpaces = function (sentence) {
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function (sentence) {
+    /*if (typeof sentence === "string"){
+      return true;
+    } else {
+      return false;
+    }*/
   return (typeof sentence === "string") ? true : false;
 }
 
